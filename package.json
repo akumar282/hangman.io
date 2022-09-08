@@ -1,0 +1,30 @@
+{
+  "name": "hangman.io",
+  "version": "1.0.0",
+  "description": "hangman webapp game",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akumar282/hangman.io.git"
+  },
+  "author": "akumar282 haydenlauritzen mohazahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akumar282/hangman.io/issues"
+  },
+  "homepage": "https://github.com/akumar282/hangman.io#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.7",
+    "typescript": "^4.8.2"
+  }
+}
