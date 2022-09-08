@@ -1,0 +1,22 @@
+{
+  "name": "hangman.io",
+  "version": "1.0.0",
+  "description": "hangman webapp game",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akumar282/hangman.io.git"
+  },
+  "author": "akumar282 haydenlauritzen mohazahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akumar282/hangman.io/issues"
+  },
+  "homepage": "https://github.com/akumar282/hangman.io#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
