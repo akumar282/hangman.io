@@ -1,7 +1,6 @@
 {
   "name": "hangman.io",
   "version": "1.0.0",
-  "type": "module",
   "description": "hangman webapp game",
   "main": "./dist/index.js",
   "scripts": {

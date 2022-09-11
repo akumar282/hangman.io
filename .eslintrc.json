@@ -4,14 +4,16 @@
         "node": true
     },
     "extends": [
-        "standard"
+        "plugin:react/recommended",
+        "standard-with-typescript"
     ],
-    "parser": "@typescript-eslint/parser",
+    "overrides": [
+    ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint",
         "react"
     ],
     "ignorePatterns":["**/dist/*" , "src/client"],
