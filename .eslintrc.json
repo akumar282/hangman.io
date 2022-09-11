@@ -10,11 +10,11 @@
     "parserOptions": {
         "ecmaVersion": "latest"
     },
-    "ignorePatterns":["**/dist/*"],
     "plugins": [
         "@typescript-eslint",
         "react"
     ],
+    "ignorePatterns":["**/dist/*" , "src/client"],
     "rules": {
     }
 }

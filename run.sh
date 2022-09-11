@@ -1,1 +1,1 @@
-npx tsc && npm start
+npx tsc
