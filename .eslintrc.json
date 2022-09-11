@@ -16,7 +16,7 @@
     "plugins": [
         "react"
     ],
-    "ignorePatterns":["**/dist/*"],
+    "ignorePatterns":["**/dist/*" , "src/client"],
     "rules": {
     }
 }
