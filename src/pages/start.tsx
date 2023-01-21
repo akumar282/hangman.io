@@ -13,7 +13,7 @@ export default function Start () {
         <Link to = "./game">
           <button className = "startButton"> Start Game </button>
         </Link>
-        <Link>
+        <Link to = "">
           <button className = "soloButton"> Play Solo</button>
         </Link>
       </div>
