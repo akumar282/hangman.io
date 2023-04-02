@@ -7,8 +7,13 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "nodenext"
   },
-  "include": ["src/backend/**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/backend/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

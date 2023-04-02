@@ -1,15 +1,21 @@
-type GenreWordPoints = {
-  genre: string
-  keyword: string
-  points: number
-  book?: string
-  firstPVal?: number
-}
+import { v4 as uuidv4 } from 'uuid'
+import express, { response } from 'express'
 
-const tteestrunsh : GenreWordPoints = {
-  genre: 'test',
-  keyword: 'done',
-  points: 1,
-  book: 'erg',
-  firstPVal: 235423
-}
+
+const app = express()
+
+app.get('/', (req, res) => {
+  res.send('hello')
+})
+
+app.get('/create-game-room', (req, res) => {
+  const roomId = uuidv4()
+  console.log(roomId)
+  res.redirect(`/game/room/${roomId}`)
+})
+
+app.get('/game/room/:roomId', (req, res) => {
+  res.send('hello here')
+})
+
+app.listen(3000)
